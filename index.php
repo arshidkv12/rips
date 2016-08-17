@@ -166,6 +166,11 @@ include 'config/general.php';
 <div id="result">
 	
 	<div style="margin-left:30px;color:#000000;font-size:14px">
+		<h3> Designed for Wordpress Plugin</h3>
+		<p>You can check WordPress plugin vulnerabilities.<br>
+		Contributor : <a href='http://ciphercon.com'><b>www.CipherCoin.com</b></a>
+		</p>
+
 		<h3>Quickstart:</h3>
 		<p>Locate your local PHP source code <b>path/file</b> (e.g. <em>/var/www/project1/</em> or <em>/var/www/index.php</em>), choose the <b>vulnerability type</b> you are looking for and click <u>scan</u>!<br />
 		Check <b>subdirs</b> to include all subdirectories into the scan. It is recommended to scan only the root directory of your project. Files in subdirectories will be automatically scanned by RIPS when included by the PHP code. However enabling <b>subdirs</b> can improve the scan result and the include success rate (shown in the result).</p>
