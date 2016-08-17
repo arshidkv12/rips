@@ -2167,14 +2167,14 @@ class Scanner
 					CLASSES		
 				*************************/
 				// check if token is a class declaration
-				else if($token_name === T_CLASS)
-				{
-					$i++;
-					$this->class_name = $this->tokens[$i][1];
-					$this->vuln_classes[$this->class_name] = array();
-					$this->in_class = true;
-					$GLOBALS['info'][] = '<font color="red">Code is object-oriented. This is not supported yet and can lead to false negatives.</font>';
-				}
+				// else if($token_name === T_CLASS)
+				// {
+				// 	$i++;
+				// 	$this->class_name = $this->tokens[$i][1];
+				// 	$this->vuln_classes[$this->class_name] = array();
+				// 	$this->in_class = true;
+				// 	$GLOBALS['info'][] = '<font color="red">Code is object-oriented. This is not supported yet and can lead to false negatives.</font>';
+				// }
 				// build list of vars that are associated with a class
 				// $var = new Classname()
 				else if( $token_name === T_NEW && $this->tokens[$i-2][0] === T_VARIABLE )
