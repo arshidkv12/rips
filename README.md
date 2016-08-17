@@ -1,5 +1,8 @@
-# RIPS
-A static source code analyser for vulnerabilities in PHP scripts
+# WP-RIPS
+Designed for Wordpress Plugin
+
+You can check WordPress plugin vulnerabilities.
+Contributor : <a href="http://ciphercoin.com">www.CipherCoin.com</a>
 
 ## Requirements
 * web server: Apache or Nginx recommended
@@ -13,8 +16,4 @@ A static source code analyser for vulnerabilities in PHP scripts
 4. Make sure your installation is protected from unauthorized access
 5. Open your browser at http://localhost/rips-xx/ 
 
-## Usage
-Follow the instructions on the main page.
 
-## Development
-RIPS 0.5 development is abandoned due to its fundamental limitations. A complete new version is available at https://www.ripstech.com 
