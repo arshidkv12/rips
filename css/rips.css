@@ -414,7 +414,8 @@ hr {
 }
 
 a {
-	color: #DFDFDF;
+	color: #456AFF;
+	text-decoration: none;
 }
 
 .filename
