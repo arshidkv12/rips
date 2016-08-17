@@ -47,6 +47,7 @@ You should have received a copy of the GNU General Public License along with thi
 	
 	// securing functions for every vulnerability
 	$F_SECURING_STRING = array(
+		'absint',
 		'intval',
 		'floatval',
 		'doubleval',
@@ -149,13 +150,59 @@ You should have received a copy of the GNU General Public License along with thi
 
 	// securing functions for XSS
 	$F_SECURING_XSS = array(
+		'sanitize_email',
+		'sanitize_file_name',
+		'sanitize_html_class',
+		'sanitize_key',
+		'sanitize_mime_type',
+		'sanitize_option',
+		'sanitize_sql_orderby',
+		'sanitize_text_field',
+		'sanitize_title_for_query',
+		'sanitize_title_with_dashes',
+		'sanitize_user',
+		'sanitize_meta',
+		'sanitize_term',
+		'sanitize_term_field',
+		'esc_html',
+		'esc_html__',
+		'esc_html_e',
+		'esc_attr',
+		'esc_attr__',
+		'esc_attr_e',
 		'htmlentities',
 		'htmlspecialchars',
 		'highlight_string',
+		'esc_js',
 	);	
 	
 	// securing functions for SQLi
 	$F_SECURING_SQL = array(
+		//wordpress
+		'sanitize_email',
+		'sanitize_file_name',
+		'sanitize_html_class',
+		'sanitize_key',
+		'sanitize_mime_type',
+		'sanitize_option',
+		'sanitize_sql_orderby',
+		'sanitize_text_field',
+		'sanitize_title_for_query',
+		'sanitize_title_with_dashes',
+		'sanitize_user',
+		'sanitize_meta',
+		'sanitize_term',
+		'sanitize_term_field',
+		'esc_html',
+		'esc_html__',
+		'esc_html_e',
+		'esc_attr',
+		'esc_attr__',
+		'esc_attr_e',
+		'esc_sql',
+		'addslashes_gpc',
+		'esc_textarea',
+		//comman
 		'addslashes',
 		'dbx_escape_string',
 		'db2_escape_string',

@@ -85,6 +85,10 @@ final class Sources
 	
 	// database content as input
 	public static $F_DATABASE_INPUT = array(
+		'get_results',
+		'get_var',
+		'get_option',
+		//wordpress
 		'mysql_fetch_array',
 		'mysql_fetch_assoc',
 		'mysql_fetch_field',

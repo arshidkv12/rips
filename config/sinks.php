@@ -273,6 +273,17 @@ You should have received a copy of the GNU General Public License along with thi
 	// SQL executing functions => (parameters to scan, securing functions)
 	$NAME_DATABASE = 'SQL Injection';
 	$F_DATABASE = array(
+	//wordpress
+		'update_option'					=> array(array(2), $F_SECURING_SQL),
+		'add_option'					=> array(array(2), $F_SECURING_SQL), 
+		'get_option'					=> array(array(1), $F_SECURING_SQL), 
+		'get_results'                   => array(array(1), $F_SECURING_SQL),
+		'get_var'                       => array(array(1), $F_SECURING_SQL),
+		'get_row'						=> array(array(1), $F_SECURING_SQL),
+		'get_col'                       => array(array(1), $F_SECURING_SQL),
+		'insert'						=> array(array(1), $F_SECURING_SQL),
+		'update'						=> array(array(1), $F_SECURING_SQL),
+		'prepare'						=> array(array(1), $F_SECURING_SQL),
 	// Abstraction Layers
 		'dba_open'						=> array(array(1), array()),
 		'dba_popen'						=> array(array(1), array()), 
